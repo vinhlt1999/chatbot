@@ -1,0 +1,7 @@
+<html>
+<head>
+<title>run my python files</title>
+<?PHP
+echo Shell_exec("python test.py 'parameter1'");
+?>
+</head>

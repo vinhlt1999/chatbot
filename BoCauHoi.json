@@ -1,0 +1,517 @@
+{"intents": [
+        {"tag": "chaohoi",
+            "patterns": ["Xin chào", "Chào", "Hello", "Hi"],
+            "responses": ["Chào bạn", "Chào đằng ấy :)", "Xin chào, tôi giúp gì được cho bạn?"],
+            "context_set": ""
+        },
+        {"tag": "tambiet",
+            "patterns": ["bye","hẹn gặp lại", "Goodbye"],
+            "responses": ["Hẹn gặp bạn sau", "Bye bye :))","Tạm biệt !!","..."],
+            "context_set": ""
+        },
+        {"tag": "ten",
+            "patterns": ["Tên", "Bạn là ai?", "Ai","bạn là ai"],
+            "responses": ["Tên tôi là Admin nè :)", "Gọi tôi là anh Admin nha","bạn muốn tư vấn gì từ điện máy xanh thì cứ nói tôi nha"],
+            "context_set": ""
+
+        },
+        {"tag": "hang",
+            "patterns":["Hãng nào","mình muốn mua điện thoại","Tôi muốn mua điện thoại","hãng","mua điện thoại","toi muon mua dien thoai","minh muon mua dien thoai","toi muốn ua đinệ thoại"],
+            "responses":[" Dưới đây là một số hãng bạn có thể lựa chọn :::: Iphone, Oppo, Samsung, Vivo,  Xiaomi"],
+            "context_set": ""
+
+         },
+        {"tag" : "samsung",
+            "patterns":["điện thoại samsung","xem điện thoại samsung","samsung"],
+            "responses":["samsung galaxy s20 ultra ; samsung Z Fold 2 ;samsung note 10 plus; samsung galaxy note 20 Ultra 5G; samsung galaxy M51, SS Galaxy S20, SS Galaxy S20+, SS Galaxy Note 10+ , Samsung Galaxy A71"],
+            "context_set": ""
+         },
+
+        {"tag" : "iphone",
+            "patterns":["điện thoại iphone","iphone","ip","iphone","xem Iphone"],
+            "responses":["Iphone 12 XS Max, Iphone 12, Iphone 11, Iphone 8, Iphone 8 Plus, Iphone X, Iphone XS, Iphone XS MAX, Iphone 11 Pro Max, Iphone 11 Pro, Iphone 6 Plus, Iphone 6S Plus, Iphone 7, Iphone 7 Plus "],
+            "context_set": ""
+        },
+              {"tag" : "Xiaomi",
+            "patterns":["điện thoại xiaomi","xiaomi giá","xiaomi","xem Xiaomi"],
+            "responses":["Xiaomi Redmi 9,Xiaomi Mi 10T,Xiaomi Redmi Note 9,Xiaomi POCO X3,Xiaomi Redmi Note 9S,Xiaomi Redmi Note 8 Pro,Xiaomi Redmi Note 7,Xiaomi Redmi Note 8,Xiaomi Redmi 9C"],
+            "context_set": ""
+        },
+        {"tag" : "Oppo",
+            "patterns":["điện thoại oppo","xem điện thoại oppo","oppo","Oppo"],
+            "responses":["Oppo Reno 4, Oppo Find X2, Oppo A93,Oppo Reno3 Pro,Oppo Reno4 Pro,Oppo Reno3,Oppo A92,Oppo A52,Oppo A31,Oppo A53"],
+            "context_set": ""
+        },
+
+         {"tag" : "dtVivo",
+            "patterns":["điện thoại vivo","xem điện thoại vivo","vivo","dt vivo","điện thoại vitvo","dien thoai vivo"],
+            "responses":["Vivo V20se, Vivo u12s, vivo Y30, Vivo V20, vivo Y20, vivo X50"],
+            "context_set": ""
+        },
+        {"tag": "giasamsung",
+            "patterns":["giá là bao nhiêu","bao nhieu tien","giá điện thoại Samsung"],
+            "responses":["Dưới 3 triệu","Từ 3 đến 7 triệu","từ 7 đến 13 triệu","trên 13 triệu"],
+            "context_set": ""
+         },
+
+        {"tag" :"dienmayxanh",
+
+    	"patterns": ["Điện máy xanh","Chào Điện Máy Xanh","xin chào điện máy xanh"],
+    	"responses": ["Điện máy xanh xin chào bạn","Xin chào tôi có thể giúp được gì cho bạn"],
+    	"context_set": ""
+
+
+        },
+       
+        {
+        "tag":"dongy",
+            "patterns":["ok","oke","okay","ok cam on nha"],
+            "responses": ["ok ne`", "oke luôn","ok nha bạn","ô kê con dê"],
+            "context_set":""
+        }
+        ,
+      
+        {
+        "tag": "samsungnote20ultra",
+        	"patterns":["note 20","20 ultra","samsung ultra","galaxy ultra 5g","samsung note 20","note 20 ultra" ],
+           	"responses":["Gia giao dong tu 19tr-25tr nha ban oi, bản bình thường giá 19tr , bản Ultra giá 25trMáy sử dụng HĐH Android 10,RAM 8GB, camera chính 108MP - camera trước 10MP, CHIP Exynos 990 8 nhân, bộ nhớ trong 256GB - hỗ trợ thẻ SD 1TB ,2 sim, pin 4500 mAh"],
+        	"context_set":""        			
+
+        },
+       
+        {
+        "tag": "samsungM51",
+        	"patterns":["M51","còn M51 thì sao ạ","M51 thì sao","samsung M51","Samsung m51", "Samsung M51", "xem samsung M51" ],
+        	"responses":["Samsung galaxy M51 có giá 9.490.000 VNĐ nha anh/chị ; Máy sử dụng HĐH Android 10, RAM 8GB, camera sau 64MP và 3 camera phụ - camera trước 32MP, CHIP Snapdragon 730 8 nhân, bộ nhớ trong 128GB, 2 sim, pin 7000 mAh"],
+        	"context_set":""        			
+
+        },
+        
+        
+        {
+      "tag": "Iphone 12 Pro Max",
+      "patterns": [ "Iphone 12 Pro Max", "còn 12 Pro Max thì sao", "có 12 Pro Max không ạ", "iphone12promax", "12 Pro Max", "xem Iphone 12 Pro Max", "xem iphone 12 Pro Max" ],
+      "responses": [ "Iphone 12 Pro Max bên mình có 5 màu , giá từ 22.390.000 đến 24.990.000 và có 5 màu nha ạ. Màn hình:tOLED, 5.4, Super Retina XDR ;Hệ điều hành:tiOS 14; Camera sau: 12 MP; Camera trước:12 MP; CPU:tApple A14 Bionic 6 nhân ; Bộ nhớ trong:t64GB, 128GB, 256GB ;Thẻ SIM: Nano SIM & 1 eSIM, Hỗ trợ 5G" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Iphone 12",
+      "patterns": [ "Iphone 12 ", "còn 12 thì sao", "có 12 không ạ", "iphone12", "12 ", "xem Iphone 12 ", "xem iphone 12 " ],
+      "responses": [ "Iphone 12 giá từ 19.990.000 nha ạ. Màn hình : 6.1 inch ; Độ phân giải : 1.170x2.532 px 460ppi ; Camera : siêu rộng & 12MP ; Chip : A14 Bionic ; Bộ nhớ trong: 64GB, 128GB, 256GB" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Iphone 11",
+      "patterns": [ "Iphone 11 ", "còn 11 thì sao", "có 11 không ạ", "iphone11", "11 ", "xem Iphone 11 ", "xem iphone 11" ],
+      "responses": [ "Iphone 11 bên mình giá 19.990.000 nha anh/chị. Màn hình : IPS LCD 6.1'' ; Hệ điều hành : IOS 13 ; Camera : 12MP ; Chip : A13 Bionic ; Bộ nhớ trong : 64 GB ; Dung lượng pin : 3110 mAh" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Iphone 7 ",
+      "patterns": [ "Iphone 7 ", "còn 7 thì sao", "có 7 không ạ", "iphone7", "7 ", "xem Iphone 7 ", "xem iphone 7" ],
+      "responses": [ "Iphone 7 bên mình giá dao động từ 8.990.000 đến 9.990.000 nha ạ. Màn hình : LED-backlit IPS LCD 4.7'' ; Hệ điều hành : IOS 13 ; Camera sau : 12MP ; Camera trước : 7MP ; Chip : A10 Fusion 4 nhân ; Bộ nhớ trong : 32GB , 64GB ,128GB ; Pin: 1960 mAh" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Iphone X",
+      "patterns": [ "Iphone X ", "còn X thì sao", "có X không ạ", "iphonex", "X", "xem Iphone X ", "xem iphone x" ],
+      "responses": [ "Sản phẩm này bên mình đã ngừng kinh doanh ạ " ],
+      "context_set": ""
+
+    },
+    {
+      "tag": "Iphone 6",
+      "patterns": [ "Iphone 6 ", "còn 6 thì sao", "có 6 không ạ", "iphone6", "6", "xem Iphone 6 ", "xem iphone 6" ],
+      "responses": [ "Dòng iphone 6 bên mình đã ngừng kinh doanh nha anh/chị" ],
+      "context_set": ""
+
+    },
+    {
+      "tag": "Iphone6s",
+      "patterns": [ "Iphone 6s ", "còn 6s thì sao", "có 6s không ạ", "iphone6s", "6s", "xem Iphone 6s ", "xem iphone 6s" ],
+      "responses": [ "Dòng iphone 6s bên mình đã ngừng kinh doanh nha anh/chị" ],
+      "context_set": ""
+
+    },
+    {
+      "tag": "Iphone6plus",
+      "patterns": [ "Iphone 6plus ", "còn 6plus thì sao", "có 6plus không ạ", "iphone6plus", "6plus", "xem Iphone 6plus ", "xem iphone 6plus" ],
+      "responses": [ "Dòng iphone 6plus bên mình đã ngừng kinh doanh nha anh/chị" ],
+      "context_set": ""
+
+    },
+    {
+      "tag": "Iphone6splus",
+      "patterns": [ "Iphone 6splus ", "còn 6splus thì sao", "có 6splus không ạ", "iphone6splus", "6splus", "xem Iphone 6splus ", "xem iphone 6splus" ],
+      "responses": [ "Dòng iphone 6splus bên mình đã ngừng kinh doanh nha anh/chị" ],
+      "context_set": ""
+
+    },
+    {
+      "tag": "Iphone7plus  ",
+      "patterns": [ "Iphone 7plus ", "còn 7plus thì sao", "có 7plus không ạ", "iphone7plus", "7plus ", "xem Iphone 7plus ", "xem iphone 7plus" ],
+      "responses": [ "Dòng iphone 7splus bên mình đã ngừng kinh doanh nha anh/chị" ],
+      "context_set": ""
+
+    },
+    {
+      "tag": "Iphone8  ",
+      "patterns": [ "Iphone 8 ", "còn 8 thì sao", "có 8 không ạ", "iphone8", "8 ", "xem Iphone 8 ", "xem iphone 8" ],
+      "responses": [ "Dòng iphone 8 bên mình đang bán với giá 13.490.000 VNĐ nha anh/chị . Màn hình : LED-backlit IPS LCD, Full HD ; Hệ điều hành : IOS 13 ; Camera sau : Chính 12 MP & Phụ 12 MP ; Camera trước : 7MP ; Chip : Apple A11 Bionic 6 nhân ; Bộ nhớ trong : 128GB ; Pin: 2691 mAh" ],
+      "context_set": ""
+
+    },
+    {
+      "tag": "Iphone8plus  ",
+      "patterns": [ "Iphone 8plus ", "còn 8plus thì sao", "có 8plus không ạ", "iphone8plus", "8plus ", "xem Iphone 8plus ", "xem iphone 8plus" ],
+      "responses": [ "Dòng iphone 8plus bên mình đang bán với giá 13.490.000 VNĐ nha anh/chị . Màn hình : 5.5'', Retina HD, IPS LCD ; Hệ điều hành : IOS 14 ; Camera sau : Chính 12 MP & Phụ 12 MP ; Camera trước : 7MP ; Chip : Apple A11 Bionic 6 nhân ; Bộ nhớ trong : 64GB ; Pin: 2691 mAh" ],
+      "context_set": ""
+
+    },
+     {
+      "tag": "Vivo V20SE",
+      "patterns": [ "Vivo V20SE", "còn vivo V20SE thì sao", "có Vivo V20SE không ạ", "V20SE", "vivoV20SE", "vivov20se", "xem v20se", "xem Vivo V20SE", "xem vivo v20se" ],
+      "responses": [ "Vivo V20SE bên mình đang có giá là 7.190.000 nha ạ. Màn hình : AMOLED 6.44'' ; HĐH : Android 10 ; Camera sau : Chính 48MP,phụ 8MP ,2MP ; Camera trước: 32MP ; Chip : Snapdragon 665 8 nhân ; Bộ nhớ trong : 128GB ; Pin : 4100 mAh" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Vivo Y12s",
+      "patterns": [ "Vivo Y12s", "còn vivo Y12s thì sao", "có Vivo Y12s không ạ", "Y12s", "vivoY12s", "vivoy12s", "xem y12s", "xem Vivo Y12s", "xem vivo y12s" ],
+      "responses": [ "Giá dòng Y12s bên mình đang dao động từ 2.790.000 đến 4.290.000 ạ. Màn hình : IPS LCD 6.51'' ; HĐH : Android 10 ; Camera sau : Chính 13MP,phụ 2MP ; Camera trước: 8MP ; Chip : MediaTek Helio P35 8 nhân ; Bộ nhớ trong : 32GB,128GB ; Pin : 5000 mAh" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Vivo Y30",
+      "patterns": [ "Vivo Y30", "còn vivo Y30 thì sao", "có Vivo Y30 không ạ", "Y30", "vivoY30", "vivoy30", "xem y30", "xem Vivo Y30", "xem vivo y30" ],
+      "responses": [ "Vivo Y30 bên mình đang có giá 3.810.000 ạ.Màn hình : IPS LCD 6.47'' ; HĐH : Android 10 ; Camera sau : Chính 13MP,phụ 2MP ; Camera trước: 8MP ; Chip : MediaTek Helio P35 8 nhân ; Bộ nhớ trong : 128GB ; Pin : 5000 mAh" ],
+      "context_set": ""
+
+    },
+
+
+    {
+      "tag": "Vivo V20",
+      "patterns": [ "Vivo V20", "còn vivo V20 thì sao", "có Vivo V20 không ạ", "V20", "vivoV20", "vivov20", "xem v20", "xem Vivo V20", "xem vivo v20" ],
+      "responses": [ "Vivo V20 bên mình đang có giá 7.210.000 ạ. Màn hình : AMOLED 6.44'' ; HĐH : Android 11 ; Camera sau : Chính 64MP,phụ 8MP,2MP ; Camera trước: 44MP ; Chip : Snapdrahon 720G 8 nhân ; Bộ nhớ trong : 128GB ; Pin : 4000 mAh" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Vivo Y20",
+      "patterns": [ "Vivo Y20", "còn vivo Y20 thì sao", "có Vivo Y20 không ạ", "Y20", "vivoY20", "vivoy20", "xem y20", "xem Vivo Y20", "xem vivo y20" ],
+      "responses": [ "Giá Vivo Y20 bên mình dao động từ 3.990.000 đến 4.990.000 nha ạ. Màn hình : IPS LCD 6.51'' ; HĐH : Android 10 ; Camera sau : Chính 13MP,phụ 2MP ; Camera trước: 8MP ; Chip : Snapdrahon 460 8 nhân ; Bộ nhớ trong : 64GB ; Pin : 5000 mAh" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Vivo X50",
+      "patterns": [ "Vivo X50", "còn vivo X50 thì sao", "có Vivo X50 không ạ", "X50", "vivoX50", "vivox50", "xem x50", "xem Vivo X50", "xem vivo x50" ],
+      "responses": [ "Vivo X50 bên mình đang có giá là 11.990.000 ạ. Màn hình : AMOLED 6.56'' ; HĐH : Android 10 ; Camera sau : Chính 48MP,phụ 13MP ; Camera trước: 32MP ; Chip : Snapdrahon 730 8 nhân ; Bộ nhớ trong : 128GB ; Pin : 4200 mAh" ],
+      "context_set": ""
+
+    },
+
+    {
+      "tag": "Vivo V19",
+      "patterns": [ "Vivo V19", "còn vivo V19 thì sao", "có Vivo V19 không ạ", "V19", "vivoV19", "vivov19", "xem v19", "xem Vivo V19", "xem vivo v19" ],
+      "responses": [ "Vivo V19 bên mình đang có giá là 7.990.000 ạ. Màn hình : Super AMOLED 6.44'' ; HĐH : Android 10 ; Camera sau : Chính 48MP,phụ 8MP ; Camera trước: 32MP,phụ 8MP ; Chip : Snapdrahon 712 8 nhân ; Bộ nhớ trong : 128GB ; Pin : 4500 mAh" ],
+      "context_set": ""
+
+    },
+        {
+        "tag": "XiaomiRedmi9",
+        	"patterns":["Xiaomi Redmi 9","xiaomi redmi 9","Redmi 9","redmi 9","xem xiaomiredmi9", "xem redmi 9","điện thoại Xiaomi Redmi 9"],
+        	"responses":["Xiaomi Redmi 9 có giá 3.790.000 VNĐ nha anh/chị. Máy sử dụng màn hình IPS LCD, 6.53inch, FullHD+, hệ điều hành Android 10, camera chính 13MP và phụ 8MP, 5MP, 2MP, camera trước 8MP, CPU: MediaTek Helio G80 8 nhân, RAM 4GB, bộ nhớ trong 64GB"],
+        	"context_set":""        			
+
+        },
+
+        {
+        "tag": "XiaomiMi10T",
+        	"patterns":["Xiaomi Mi 10T","xiaomimi10t","Mi10T","Mi10T còn không","điện thoại xiaomi mi 10t"],
+        	"responses":["Xiaomi Mi 10T có giá 12.990.000 VNĐ nha anh/chị. Màn hình:IPS LCD, 6.67, Full HD+,Hệ điều hành:   Android 10,Camera sau: Chính 108 MP & Phụ 13 MP, 5 MP,Camera trước: 20 MP,CPU: Snapdragon 865 8 nhân,RAM:8 GB,Bộ nhớ trong:256 GBThẻ SIM:2 Nano SIM, Hỗ trợ 5G"],
+        	"context_set":""        			
+
+        },
+
+        {
+        "tag": "XiaomiRedmiNote9",
+        	"patterns":["XiaomiRedmiNote9", "Redmi Note 9","Note 9"," điện thoại xiaomi redmi note 9", "redmi note 9 còn không"],
+        	"responses":["Xiaomi Redmi Note 9 có giá 6.190.000 VNĐ cho bản 64GB nha anh/chị. Màn hình: IPS LCD, 6.67,Full HD+,Hệ điều hành:Android 10,Camera sau: Chính 64 MP & Phụ 8 MP, 5 MP, 2 MP,Camera trước:16 MP,CPU: Snapdragon 720G 8 nhân,RAM:6 GB,Bộ nhớ trong:64 GB,Thẻ nhớ: MicroSD, hỗ trợ tối đa 512 GB"],
+        	"context_set":""        			
+
+        },
+       
+        {
+        "tag": "XiaomiPOCOX3",
+        	"patterns":["XiaomiPOCOX3","xiaomi poco x3","poco x3 còn không","poco x3 giá","poco x3", "POCO X3"],
+        	"responses":["Xiaomi POCO X3 có giá 6.990.000 VNĐ nha anh/chị. Màn hình:IPS LCD, 6.67, Full HD+,Hệ điều hành: Android 10,Camera sau: Chính 64 MP & Phụ 13 MP, 2 MP, 2 MP,Camera trước: 20 MP,CPU:Snapdragon 732G 8 nhân,RAM: 6 GB,Bộ nhớ trong: 128 GBThẻ nhớ: MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+        
+        {
+        "tag": "XiaomiRedmiNote9S",
+        	"patterns":["XiaomiRedmiNote9S", "Xiaomi Redmi Note 9S", "Xiaomi Redmi Note 9S còn không", "XiaomiRedmiNote9S còn không", "9S", "Redmi Note 9S", "Note 9S"],
+        	"responses":["Xiaomi Redmi Note 9S có giá 5.690.000 VNĐ nha anh/chị. Màn hình: IPS LCD, 6.67, Full HD+,Hệ điều hành:Android 10,Camera sau: Chính 48 MP & Phụ 8 MP, 5 MP, 2 MP,Camera trước:16 MP,CPU: Snapdragon 720G 8 nhân,RAM: 6 GB,Bộ nhớ trong: 128 GB,Thẻ nhớ: MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "XiaomiRedmiNote8Pro",
+        	"patterns":["XiaomiRedmiNote8Pro", "Xiaomi Redmi Note 8 Pro", "Xiaomi Redmi Note 8 Pro còn không", "XiaomiRedmiNote8Pro còn không", "Redmi Note 8 Pro", "Note 8 Pro"],
+        	"responses":["Xiaomi Redmi Note 8 Pro có giá 5.990.000 VNĐ nha anh/chị. Màn hình: IPS LCD, 6.53, Full HD+,Hệ điều hành:Android 9,Camera sau: Chính 64 MP & Phụ 8 MP, 2 MP, 2 MP,Camera trước:20 MP,CPU: MediaTek Helio G90T 8 nhân,RAM: 6 GB,Bộ nhớ trong: 128 GB,Thẻ nhớ: MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "XiaomiRedmiNote7",
+        	"patterns":["XiaomiRedmiNote7", "Xiaomi Redmi Note 7", "Xiaomi Redmi Note 7 còn không", "XiaomiRedmiNote7 còn không", "Redmi Note 7", "Note 7"],
+        	"responses":["Xiaomi Redmi Note 9S có giá 3.990.000 VNĐ nha anh/chị. Màn hình: IPS LCD, 6.3, Full HD+,Hệ điều hành:Android 9,Camera sau: Chính 48 MP & Phụ 5 MP,Camera trước:13 MP,CPU: Snapdragon 660 8 nhân,RAM: 4 GB,Bộ nhớ trong: 64 GB,Thẻ nhớ: MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "XiaomiRedmiNote8",
+        	"patterns":["XiaomiRedmiNote8", "Xiaomi Redmi Note 8", "Xiaomi Redmi Note 8 còn không", "XiaomiRedmiNote8 còn không", "Redmi Note 8", "Note 8"],
+        	"responses":["Xiaomi Redmi Note 8 có giá 4.490.000 VNĐ nha anh/chị. Màn hình: IPS LCD, 6.3, Full HD+,Hệ điều hành:Android 9,Camera sau: Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP,Camera trước:13 MP,CPU:Snapdragon 665 8 nhân,RAM: 4 GB,Bộ nhớ trong: 64 GB,Thẻ nhớ: MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+		{
+        "tag": "XiaomiRedmi9C",
+        	"patterns":["Xiaomi Redmi 9C","xiaomi redmi 9C","Redmi 9C","redmi 9C","xem xiaomiredmi9C","C9","9C", "xem redmi 9c","điện thoại Xiaomi Redmi 9C"],
+        	"responses":["hiện có giá 3 củ nha ae:::::: Hệ điều hành:Android 10, Camera sau:Chính 13 MP & Phụ 2 MP, 2 MP, RAM:3 GB, ROM 64 pin 5000mAh"],
+        	"context_set":""        			
+
+        },
+        
+        {
+        "tag": "OppoReno4",
+        	"patterns":["OppoReno4","oppo reno 4","reno 4","oppo reno 4 còn không","reno 4 còn không", "oppo reno 4 giá", "reno4 giá"],
+        	"responses":["Oppo Reno 4 có giá 8.490.000 VNĐ nha anh/chị. Màn hình:AMOLED, 6.4, Full HD+,Hệ điều hành: Android 10,Camera sau: Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP,Camera trước:Chính 32 MP & Phụ cảm biến thông minh A.I,CPU: Snapdragon 720G 8 nhân,RAM:8 GB,Bộ nhớ trong:128 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+        
+        {
+        "tag": "OppoFindX2",
+        	"patterns":["OppoFindX2","oppo find x2","oppo find x2", "find x2","x2","oppo finx x2 giá bao nhiêu", "oppo find x2 còn không"],
+        	"responses":["Oppo Find X2 có giá 19.990.000 VNĐ nha anh/chị. Màn hình:  AMOLED, 6.78, Quad HD+ (2K+),Hệ điều hành: Android 10,Camera sau: Chính 48 MP & Phụ 13 MP, 12 MP,Camera trước:32 MP,CPU:Snapdragon 865 8 nhân,RAM:12 GB,Bộ nhớ trong:256 GB"],
+        	"context_set":""        			
+
+        },
+       
+        {
+        "tag": "OppoA93",
+        	"patterns":["OppoA93","Oppo A93 giá","oppo a93 còn không","a93","A93 giá bao nhiêu"],
+        	"responses":["Oppo A93 có gía 7.190.000 VNĐ nha anh/chị. Màn hình:AMOLED, 6.43, Full HD+,Hệ điều hành:   Android 10,Camera sau: Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP,Camera trước: Chính 16 MP & Phụ 2 MP,CPU: MediaTek Helio P95 8 nhân,RAM:8 GB,Bộ nhớ trong:128 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "OppoReno3Pro",
+        	"patterns":["OppoReno3Pro","oppo reno 3 pro","reno 3 pro","oppo reno 3 pro còn không","reno 3 pro còn không", "oppo reno 3 pro giá", "reno3pro giá"],
+        	"responses":["Oppo Reno 3 Pro có giá 8.990.000 VNĐ nha anh/chị. Màn hình:Sunlight Super AMOLED, 6.4, Full HD+,Hệ điều hành: Android 10,Camera sau: Chính 64 MP & Phụ 13 MP,8 MP, 2 MP,Camera trước:Chính 44 MP & Phụ 2MP,CPU: MediaTek Helio P95 8 nhân,RAM:8 GB,Bộ nhớ trong:256 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "OppoReno4Pro",
+        	"patterns":["OppoReno4Pro","oppo reno 4Pro","reno 4Pro","oppo reno 4 Pro còn không","reno 4 Pro còn không", "oppo reno 4 Pro giá", "reno4Pro giá"],
+        	"responses":["Oppo Reno 4 Pro có giá 11.990.000 VNĐ nha anh/chị. Màn hình:AMOLED, 6.5, Full HD+,Hệ điều hành: Android 10,Camera sau: Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP,Camera trước:Chính 32 MP ,CPU: Snapdragon 720G 8 nhân,RAM:8 GB,Bộ nhớ trong:256 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "OppoReno3",
+        	"patterns":["OppoReno3","oppo reno 3","reno 3","oppo reno 3 còn không","reno 3 còn không", "oppo reno 3 giá", "reno3 giá"],
+        	"responses":["Oppo Reno 3 có giá 6.990.000 VNĐ nha anh/chị. Màn hình:AMOLED, 6.4, Full HD+,Hệ điều hành: Android 10,Camera sau: Chính 48 MP & Phụ 13 MP,8 MP, 2 MP,Camera trước:Chính 44 MP,CPU: MediaTek Helio P90 8 nhân,RAM:8 GB,Bộ nhớ trong:128 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "OppoA92",
+        	"patterns":["OppoA92","Oppo A92 giá","oppo a92 còn không","a92","A92 giá bao nhiêu"],
+        	"responses":["Oppo A92 có gía 6.490.000 VNĐ nha anh/chị. Màn hình:TFT LCD, 6.5, Full HD+,Hệ điều hành:Android 10,Camera sau: Chính 48 MP & Phụ 8 MP, 2 MP, 2 MP,Camera trước: 16 MP,CPU: Snapdragon 665 8 nhân,RAM:8 GB,Bộ nhớ trong:128 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "OppoA52",
+        	"patterns":["OppoA52","Oppo A52 giá","oppo a52 còn không","a52","A52 giá bao nhiêu"],
+        	"responses":["Oppo A52 có gía 5.990.000 VNĐ nha anh/chị. Màn hình:TFT LCD, 6.5, Full HD+,Hệ điều hành:Android 10,Camera sau: Chính 12 MP & Phụ 8 MP, 2 MP, 2 MP,Camera trước: 16 MP,CPU: Snapdragon 665 8 nhân,RAM:6 GB,Bộ nhớ trong:128 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "OppoA31",
+        	"patterns":["OppoA31","Oppo A31 giá","oppo a31 còn không","a31","A31 giá bao nhiêu"],
+        	"responses":["Oppo A31 có gía 4.790.000 VNĐ nha anh/chị. Màn hình:IPS LCD, 6.5, HD+,Hệ điều hành:Android 9,Camera sau: Chính 12 MP & Phụ 2 MP, 2 MP,Camera trước: 8 MP,CPU: MediaTek Helio P35 8 nhân,RAM:6 GB,Bộ nhớ trong:128 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+	{
+        "tag": "OppoA53",
+        	"patterns":["OppoA53","Oppo A53 giá","oppo a53 còn không","a53","A53 giá bao nhiêu"],
+        	"responses":["Oppo A53 có gía 4.990.000 VNĐ nha anh/chị. Màn hình:IPS LCD, 6.5,HD+,Hệ điều hành:Android 10,Camera sau: Chính 13 MP & Phụ 2 MP, 2 MP,Camera trước: 16 MP,CPU: Snapdragon 665 8 nhân,RAM:6 GB,Bộ nhớ trong:128 GB,Thẻ nhớ:MicroSD, hỗ trợ tối đa 256 GB"],
+        	"context_set":""        			
+
+        },
+         {
+        "tag": "Fold2",
+        	"patterns":[" Fold 2","Fold 2"," samsung fold2", "samsung galaxy fold2 ", "sámung galaxy fold 2","fold2"],
+        	"responses":["Samsung Galaxy Fold2 sở hữu cho mình cấu hình hoàn hảo, với hệ điều hành Android 10 ; 3 camera 12 MP ; 10 MP; Snapdragon 865+ 8 nhân; RAM 12 GB; ROM 256 GB; Pin 4500 mAh, có sạc nhanh"],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "dtoppo",
+        	"patterns":["oppo","điện thoại Oppo", "oppo"],
+        	"responses":["Oppo có các sản phẩm sau: OppoA93, OppoReno4, OppoFindX2"],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "S20Plus",
+        	"patterns":["SS S20Plus","S20 Plus","Samsung S20Plus","S20+", "SS S20+","sámung s20+"],
+        	"responses":["Sản phẩm này có giá 23.990.000 VNĐ :::: Máy sử dụng hệ điều hành: Android 10 ; Camera sau: Chính 12 MP & Phụ 64 MP, 12 MP, TOF 3D ; Camera trước: 10 MP; CPU:Exynos 990 8 nhân; RAM: 8 GB; Bộ nhớ trong: 128 GB; Pin 4500 mAh và có hỗ trợ sạc"],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "SSNote10Plus",
+        	"patterns":["Samsung Galaxy Note 10+","SS note 10+"," Samsung 10+"],
+        	"responses":["Giá hiện tại của sản phẩm là 16.490.000 VNĐ :::: Màn hình:Dynamic AMOLED, 6.8 inches, Quad HD+ (2K+), Android 9 (Pie), Camera sau: Chính 12 MP & Phụ 12 MP, 16 MP, TOF 3D; Camera trước : 10 MP, CPU:Exynos 9825 8 nhân, RAM:12 GB, Bộ nhớ trong:256 GB, Dung lượng pin:4300 mAh, có sạc nhanh"],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "SSA71",
+        	"patterns":["A71","Samsung Galaxy A71", "ss a71", "samsung A71"],
+        	"responses":["Sản phẩm hiện có giá 9.490.000 VNĐ ::::Màn hình:Super AMOLED, 6.7 inches, Full HD+ , Hệ điều hành: Android 10, Camera sau:Chính 64 MP & Phụ 12 MP, 5 MP, 5 MP, Camera trước: 32 MP, CPU:Snapdragon 730 8 nhân, RAM:8 GB, Bộ nhớ trong:128 GB, Dung lượng pin:4500 mAh, có sạc nhanh"],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+
+       {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        },
+        {
+        "tag": "",
+        	"patterns":[""],
+        	"responses":[""],
+        	"context_set":""        			
+
+        }
+        ]
+} 

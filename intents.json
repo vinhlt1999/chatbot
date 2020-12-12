@@ -1,0 +1,62 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+                "patterns": ["Bye", "Chào", "tạm biệt"],
+                "responses": ["See you later, Cám ơn đã ghé thăm", "Chúc bạn ngày tốt lành", "Bye! hẹn gặp lại"]
+        },
+        {"tag": "ten",
+                "patterns": ["Tên", "Bạn là ai?", "Ai"],
+                "responses": ["Tên tôi là Admin nè :)", "Gọi tôi là anh Admin nha","bạn muốn tư vấn gì từ điện máy xanh thì cứ nói tôi nha"],
+                "context_set": ""
+    
+            },
+            {"tag": "hang",
+                "patterns":["Hãng nào","Hãng"],
+                "responses":["Iphone","Oppo","Samsung","Vivo","Huawei","Vsmart"],
+                "context_set": ""
+    
+        },
+        {"tag" :"samsung",
+                "patterns":["điện thoại samsung","xem điện thoại samsung","samsung"],
+                "responses":["samsung galaxy s20 ultra","samsung Z Fold 2","samsung note 10 plus","samsung galaxy note 20 Ultra 5G"],
+                "context_set": ""
+        },
+        {"tag" :"iphone",
+                "patterns":["điện thoại iphone","iphone giá","iphone","xem Iphone"],
+                "responses":["Iphone 12 XS Max","Iphone 12","Iphone 11"],
+                "context_set": ""
+        },
+        {"tag" :"oppo",
+                "patterns":["điện thoại oppo","xem điện thoại oppo","oppo"],
+                "responses":["Oppo Reno 3","Bạn có thể lựa chọn nhiều loại oppo từ Dienmayxanh"],
+                "context_set": ""
+        },
+        {"tag":"giasamsung",
+                "patterns":["giá là bao nhiêu","bao nhieu tien","giá điện thoại Samsung"],
+                "responses":["Dưới 3 triệu","Từ 3 đến 7 triệu","từ 7 đến 13 triệu","trên 13 triệu"],
+                "context_set": ""
+        },
+    
+        {"tag" :"dienmayxanh",
+    
+                "patterns": ["Điện máy xanh","Chào Điện Máy Xanh"],
+                "responses": ["Điện máy xanh xin chào bạn","Xin chào tôi có thể giúp được gì cho bạn"],
+                "context_set": ""
+    
+    
+        },
+         {"tag" :"giaoppo",
+                "patterns":["giá","bao nhiêu tiền","giá oppo","gia dien thoai"],
+                "responses":["Dưới 3 triệu","Từ 3 đến 7 triệu","từ 7 đến 13 triệu","trên 13 triệu"],
+                "context_set": ""
+        }
+
+        
+
+  ]
+}
+
